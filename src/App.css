@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
-
+/**/
 :root {
   --primary-white: #ffffff;
   --primary-light-grey: #f4f4f4;
   --primary-grey: #ccd1d9;
-  --primary-dark-grey: #666666;
-  --primary-orange: #f9ab00;
+  --primary-dark-grey: rgb(102, 102, 102);
+  --primary-orange: rgb(250, 171, 0);
   --primary-dark: rgb(52, 58, 64);
   --primary-red: #ef4035;
   --primary-hover-red: #f33501;
   --primary-black: #000000;
+  --primary-transparent-black: rgba(0,0,0,0.7);
+  --primary-green: green;
 }
 
 body {
@@ -24,15 +26,16 @@ nav {
 }
 
 .logo {
-  width: 4rem;
-  height: 4rem;
-  border-radius: 50%;
+  margin-top: 1rem;
+  width: 12rem;
+  
 }
 
 /*----- MENU LINKS --------*/
 nav a.nav-link {
-  font-size: .8rem;
-  letter-spacing: 0.0375rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 0.04rem;
   cursor: pointer;
 }
 
@@ -59,7 +62,7 @@ nav ul li {
  }
 }
 
-.navbar-nav > li > a.active,  .navbar-nav > li > a.active:focus {
+.navbar-nav > li > a.active,  .navbar-nav > li > a:focus {
   border-top: 0.1875rem solid var(--primary-orange);
 }
 
@@ -75,7 +78,7 @@ nav ul li {
   background: url(wall-and-laptop-background.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .main-info {
@@ -95,12 +98,15 @@ nav ul li {
 .main-info h1 {
   color: var(--primary-orange);
   text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  font-family: 'Source Code Pro', monospace;
 }
 
 /*-------- TYPED TEXT ---------------*/
 .typed-text {
   font-size: 2rem;
   color: var(--primary-white);
+  margin: 2rem;
 }
 
 @media(max-width: 768px) {
@@ -150,6 +156,10 @@ nav ul li {
   justify-content: center;
   align-items: center;
 }
+.row{
+  justify-content: center;
+  align-items: center; ;
+}
 
 .profile-img {
   width: 16rem;
@@ -161,6 +171,10 @@ nav ul li {
 .about-heading {
   color: var(--primary-orange);
   text-transform: uppercase;
+  text-align: center;
+}
+.about-text{
+  font-size: 1.5rem;
 }
 
 @media(max-width: 468px) {
@@ -369,6 +383,10 @@ nav ul li {
   cursor: pointer;
 }
 
+.popupbox-wrapper {
+  margin-top: 7rem;
+}
+
 /*------------ OVERFLOW BOX ------------------*/
 .portfolio-image-popupbox {
   width: 45rem;
@@ -408,3 +426,210 @@ nav ul li {
       width: 30%;
     }
   }
+
+/************************ TESTIMONIALS *********************************/
+.testimonials {
+  background-image: url(testimonials-bg.jpg);
+  background-size: cover;
+  background-color: var(--primary-black);
+  text-align: center;
+  padding-bottom: 4rem;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.testimonials h1 {
+  color: var(--primary-orange);
+  padding: 3rem 0;
+  text-transform: uppercase;
+}
+
+.testimonials-content {
+  text-align: center;
+  max-width: 53.125rem;
+  margin: 0 auto 2rem auto;
+  background: var(--primary-transparent-black); 
+}
+
+.myCarousel {
+  color: var(--primary-white);
+  background: transparent;
+  margin-top: -6%;
+  width: 54%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 6%;
+  padding-bottom: 8%;
+  padding-left: 5%;
+  padding-right: 5%;
+  height: 17.875rem;
+}
+
+.myCarousel h3 {
+  color: var(--primary-orange);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.myCarousel p {
+  color: var(--primary-grey);
+}
+
+.carousel .slide img {
+  width: 10rem !important;
+  border-radius: 50%;
+}
+
+.carousel .slide {
+  background: transparent !important;
+  height: 100% !important;
+  padding-top: 2rem;
+}
+
+.carousel-root {
+  margin: auto !important;
+  margin-top: 3% !important;
+}
+
+/************************ CONTACTS COMPONENT *********************************/
+.contacts {
+  background: var(--primary-dark);
+  padding: 3rem 0;
+}
+
+.contacts h1 {
+  color: var(--primary-orange);
+  padding: 1.3rem 0;
+  text-transform: uppercase;
+}
+
+.contacts p {
+  color: var(--primary-light-grey);
+  font-size: 1.2rem;
+}
+
+/*------------------ INPUTS -------------------------------*/
+.contacts input, .contacts textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background: none;
+  resize: none;
+  border: 0;
+  border-bottom: 0.125rem solid var(--primary-dark-grey);
+  border-radius: 0;
+  color: var(--primary-orange);
+  outline: 0 !important;
+  box-shadow: none !important;
+  margin-bottom: 1rem;
+  padding-left: 0 !important;
+}
+
+.contacts .container {
+  padding: 4rem 0;
+}
+
+.contacts input:focus, .contacts textarea:focus {
+  background: transparent;
+  color: var(--primary-orange);
+  border-bottom: 0.125rem solid var(--primary-dark-grey);
+}
+
+.contacts textarea {
+  height: 12.2rem !important;
+}
+
+.contact-btn {
+  margin: 1rem 0 0 0;
+  width: 100%;
+  background: none;
+}
+
+.line {
+  position: relative;
+  top: -0.8rem;
+  width: 0;
+  height: 0.125rem;
+  background: var(--primary-orange);
+  display: inline-block;
+}
+
+input:focus+.line, textarea:focus+.line {
+  width: 100%;
+  transition: width 0.5s ease-in-out;
+}
+
+input.form-control {
+  margin: -0.3rem 0;
+}
+
+textarea.form-control {
+  margin: -0.3rem 0;
+}
+
+.error-message {
+  color: var(--primary-white);
+  background: var(--primary-hover-red);
+  text-align: left;
+}
+
+.success-message {
+  font-weight: 900;
+  color: var(--primary-green);
+}
+
+/*---------------- MEDIA -----------------------*/
+@media(max-width: 768px) {
+  .contacts {
+    overflow-x: hidden;
+  }
+  
+  .contacts .container {
+    padding: 0 1rem;
+  }
+
+  .contacts p {
+    padding: 0 0.4rem;
+  }
+}
+
+/************************ FOOTER COMPONENT *********************************/
+.footer {
+  background: var(--primary-black);
+  color: var(--primary-dark-grey);
+  padding: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primary-dark-grey);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: var(--primary-orange);
+  cursor:pointer;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
