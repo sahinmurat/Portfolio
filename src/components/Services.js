@@ -2,6 +2,8 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF, faGoogle } from "@fortawesome/free-brands-svg-icons";
 import { faDesktop, faFileCode } from "@fortawesome/free-solid-svg-icons";
+import { FaMixcloud } from 'react-icons/fa';
+
 
 const Services = () => {
   return (
@@ -28,10 +30,10 @@ const Services = () => {
           {/* - */}
           <div className="col-lg-3 col-md-6 col-sm-6">
             <div className="box">
-              <div className="circle"><FontAwesomeIcon className="icon" icon={faFacebookF} size="2x" /></div>
+              <div className="circle"><FaMixcloud className="icon" icon={FaMixcloud} size="2x" /></div>
 
-              <h3>Facebook Ads SMM</h3>
-              <p>Your potential clients well see your services or product on Facebook</p>
+              <h3>Web Hosting</h3>
+              <p>Uptime IT is a provider of effective and certified hosting solutions - precisely tailored to your company</p>
             </div>
           </div>
           {/* - */}

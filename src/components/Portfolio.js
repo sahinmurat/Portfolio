@@ -23,10 +23,12 @@ const Pofrfolio = () => {
     const content = (
       <>
         <img className="portfolio-image-popupbox" src={boutuque} alt="Sahin Boutuque Project..." />
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
-        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://class-ecommerce.herokuapp.com/", "_blank")}>https://class-ecommerce.herokuapp.com/</a>
-        <br />
-        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/sahinmurat/e_commerce_with_react")}>https://github.com/sahinmurat/e_commerce_with_react</a>
+        <p></p>
+        <div className='links'>
+          <b className='demo'>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://class-ecommerce.herokuapp.com/", "_blank")}>https://class-ecommerce.herokuapp.com/</a>
+          <br />
+          <b className='demo'>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/sahinmurat/e_commerce_with_react")}>https://github.com/sahinmurat/e_commerce_with_react</a>
+        </div>
       </>
     )
     PopupboxManager.open({ content })
@@ -46,10 +48,12 @@ const Pofrfolio = () => {
     const content = (
       <>
         <img className="portfolio-image-popupbox" src={reactshare} alt="React share " />
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
-        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://react-share.vercel.app/", "_blank")}>https://react-share.vercel.app/</a>
-        <br />
-        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/sahinmurat/React_Share", "_blank")}>https://github.com/sahinmurat/React_Share</a>
+        <p></p>
+        <div className='links'>
+          <b className='demo'>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://react-share.vercel.app/", "_blank")}>https://react-share.vercel.app/</a>
+          <br />
+          <b className='demo'>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/sahinmurat/React_Share", "_blank")}>https://github.com/sahinmurat/React_Share</a>
+        </div>
       </>
     )
     PopupboxManager.open({ content })
@@ -69,10 +73,12 @@ const Pofrfolio = () => {
     const content = (
       <>
         <img className="portfolio-image-popupbox" src={jobsearch} alt="Job Search" />
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
-        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://job-search-six.vercel.app/", "_blank")}>https://job-search-six.vercel.app/</a>
-        <br />
-        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/sahinmurat/job-search", "_blank")}>https://github.com/sahinmurat/job-search</a>
+        <p></p>
+        <div className='links'>
+          <b className='demo'>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://job-search-six.vercel.app/", "_blank")}>https://job-search-six.vercel.app/</a>
+          <br />
+          <b className='demo'>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/sahinmurat/job-search", "_blank")}>https://github.com/sahinmurat/job-search</a>
+        </div>
       </>
     )
     PopupboxManager.open({ content })
@@ -92,10 +98,12 @@ const Pofrfolio = () => {
     const content = (
       <>
         <img className="portfolio-image-popupbox" src={sahinblog} alt="Sahin Blog " />
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
-        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://sahin-blog.herokuapp.com/", "_blank")}>https://sahin-blog.herokuapp.com/</a>
-        <br />
-        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/sahinmurat/blog_react", "_blank")}>https://github.com/sahinmurat/blog_react</a>
+        <p></p>
+        <div className='links'>
+          <b className='demo'>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://sahin-blog.herokuapp.com/", "_blank")}>https://sahin-blog.herokuapp.com/</a>
+          <br />
+          <b className='demo'>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/sahinmurat/blog_react", "_blank")}>https://github.com/sahinmurat/blog_react</a>
+        </div>
       </>
     )
     PopupboxManager.open({ content })
@@ -115,10 +123,12 @@ const Pofrfolio = () => {
     const content = (
       <>
         <img className="portfolio-image-popupbox" src={facebook} alt="Facebook  " />
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
-        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://facebook-two.vercel.app/", "_blank")}>https://facebook-two.vercel.app/</a>
-        <br />
-        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/sahinmurat/Facebook_with_react", "_blank")}>https://github.com/sahinmurat/Facebook_with_react</a>
+        <p></p>
+        <div className='links'>
+          <b className='demo'>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://facebook-two.vercel.app/", "_blank")}>https://facebook-two.vercel.app/</a>
+          <br />
+          <b className='demo'>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/sahinmurat/Facebook_with_react", "_blank")}>https://github.com/sahinmurat/Facebook_with_react</a>
+        </div>
       </>
     )
     PopupboxManager.open({ content })
@@ -137,10 +147,12 @@ const Pofrfolio = () => {
     const content = (
       <>
         <img className="portfolio-image-popupbox" src={linkedin} alt="Linkedin  " />
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
-        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://linkedin-redux.herokuapp.com/", "_blank")}>https://linkedin-redux.herokuapp.com//</a>
-        <br />
-        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/sahinmurat/Linkedin_with_React", "_blank")}>https://github.com/sahinmurat/Linkedin_with_React</a>
+        <p></p>
+        <div className='links'>
+          <b className='demo'>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://linkedin-redux.herokuapp.com/", "_blank")}>https://linkedin-redux.herokuapp.com//</a>
+          <br />
+          <b className='demo'>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/sahinmurat/Linkedin_with_React", "_blank")}>https://github.com/sahinmurat/Linkedin_with_React</a>
+        </div>
       </>
     )
     PopupboxManager.open({ content })
@@ -159,16 +171,18 @@ const Pofrfolio = () => {
     const content = (
       <>
         <img className="portfolio-image-popupbox" src={todo} alt="Todo    " />
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
-        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://mytodoplan.herokuapp.com/", "_blank")}>https://mytodoplan.herokuapp.com/</a>
-        <br />
-        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/sahinmurat/React-Todo", "_blank")}>https://github.com/sahinmurat/React-Todo</a>
+        <p></p>
+        <div className='links'>
+          <b className='demo'>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://mytodoplan.herokuapp.com/", "_blank")}>https://mytodoplan.herokuapp.com/</a>
+          <br />
+          <b className='demo'>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/sahinmurat/React-Todo", "_blank")}>https://github.com/sahinmurat/React-Todo</a>
+        </div>
       </>
     )
     PopupboxManager.open({ content })
   }
 
-  const popupboxConfigTodo  = {
+  const popupboxConfigTodo = {
     titleBar: {
       enable: true,
       text: "Todo  "
@@ -181,19 +195,21 @@ const Pofrfolio = () => {
     const content = (
       <>
         <img className="portfolio-image-popupbox" src={recipe} alt="Recipe" />
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque illo est expedita quos adipisci suscipit unde itaque qui perferendis.</p>
-        <b>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://recipeneed.herokuapp.com/", "_blank")}>https://recipeneed.herokuapp.com/</a>
-        <br />
-        <b>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/sahinmurat/Recipe_App_React/tree/master/recipe_app", "_blank")}>https://github.com/sahinmurat/Recipe_App_React/tree/master/recipe_app</a>
+        <p></p>
+        <div className='links'>
+          <b className='demo'>Demo:</b> <a className="hyper-link" onClick={() => window.open("https://recipeneed.herokuapp.com/", "_blank")}>https://recipeneed.herokuapp.com/</a>
+          <br />
+          <b className='demo'>GitHub:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/sahinmurat/Recipe_App_React/tree/master/recipe_app", "_blank")}>https://github.com/sahinmurat/Recipe_App_React/tree/master/recipe_app</a>
+        </div>
       </>
     )
     PopupboxManager.open({ content })
   }
 
-  const popupboxConfigRecipe  = {
+  const popupboxConfigRecipe = {
     titleBar: {
       enable: true,
-      text: "Todo  "
+      text: "Recipe  "
     },
     fadeIn: true,
     fadeInSpeed: 500
@@ -248,7 +264,7 @@ const Pofrfolio = () => {
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
           </div>
           {/* - */}
-          <div className="portfolio-image-box" onClick={openPopupboxTodo}>
+          <div className="portfolio-image-box" onClick={openPopupboxRecipe}>
             <img className="portfolio-image" src={recipe} alt="Recipe" />
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
